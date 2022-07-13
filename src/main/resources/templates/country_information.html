@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Information</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td><h4>Country name: </h4></td>
+        <td><h4 th:text="${country.name}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>Country population: </h4></td>
+        <td><h4 th:text="${country.population}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>Country capital: </h4></td>
+        <td><h4 th:text="${country.capital}"></h4></td>
+    </tr>
+    <tr>
+        <td><h4>Country currency: </h4></td>
+        <td><h4 th:text="${country.currency}"></h4></td>
+    </tr>
+</table>
+</body>
+</html>
